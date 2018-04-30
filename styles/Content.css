@@ -1,0 +1,95 @@
+/* Content */
+
+.content {
+    width: 100%;
+    height: auto;
+    padding: 8rem 18rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.main-content {
+    display: flex;
+}
+
+.collumn {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.collumn:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.article {
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.article img {
+    width: 100%;
+}
+
+.article .article-text {
+    margin: 3rem 3rem 5rem 3rem;
+}
+
+.article-text h1, .article-text h1+p {
+    padding-bottom: 2rem;
+}
+
+.article span {
+    color: #0D5394;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.quotes {
+    text-align: center;
+}
+
+.quotes i {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* Pagination */
+
+.pagination {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 5rem 0 2rem 0;
+    font-size: 1.6rem;
+}
+
+.pagination a {
+    padding: 1rem 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.pagination-page {
+    border-radius: 10%;
+}
+
+.pagination a.active {
+    background-color: black;
+    color:white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination-arrow {
+    margin: 0 1rem;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+

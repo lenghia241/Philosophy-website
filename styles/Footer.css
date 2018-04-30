@@ -1,0 +1,84 @@
+/* Footer Styles */
+
+.footer {
+    width: 100%;
+    background-color: #19191B;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.footerWrapper {
+    width: 100%;
+    display :inline-flex;
+    justify-content: space-between
+}
+
+.seperator {
+    width: 13rem;
+    height: 0.5px;
+    border-bottom:1px solid #757575;
+    margin-bottom: 2rem;
+}
+
+/* Shorcut section styles */
+
+.shorcut {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.shorcut-row {
+    width: 29%;
+}
+
+.shorcut-row ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.shorcut-row ul h3, .newsletter h3{
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.shorcut-row li:not(:first-child) {
+    margin-bottom: 2rem;
+}
+
+/* Newsletter */
+
+.newsletter {
+    width: 40%;
+}
+
+.newsletter .mail-input {
+    margin-top: 4rem;
+    display:inline-flex;
+}
+
+.newsletter .mail-input input {
+    padding: 2rem;
+    width: 40rem;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.newsletter .mail-input button {
+    text-transform: uppercase;
+    background-color: #0054A9;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 2rem;
+}
+
+/* Copy right */
+
+.copyright {
+    margin-top: 4rem;
+}
+

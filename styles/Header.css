@@ -1,0 +1,186 @@
+/* Hero Image */
+
+.heroImage {
+    width: 100%;
+    height: 100vh;
+    min-height: 50rem;
+    background-image: linear-gradient(to right bottom, rgba(23,23,23,1), rgba(24,24,24,0.8)), url("../images/hero-bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav bar */
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    padding: 2rem 8rem 8rem 8rem;
+    color:#fff;
+}
+
+/* nav bar top part */
+
+.navtop,.brand,.search {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtop {
+    width: 100%;
+    border-bottom: 0.5px solid #1E1E1E;
+    padding-bottom: 2.5rem;
+}
+
+.brand a, .search img {
+    font-size: 1.9rem;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.search img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.logo {
+    width: 40rem;
+}
+
+.search p {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+/* nav bar bottom part */
+
+.navbot {
+    padding-top: 2.5rem;
+}
+
+.navbot, .navbot ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+li a {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-right: 5rem;
+    margin-bottom: -0.7rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #6A6A6A;
+}
+
+.active { 
+    color:#CBCBCB;
+}
+
+/* Intro Image */
+
+.introImage {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 8rem;
+}
+
+.rightIntro{
+    width: 32%;
+}
+
+.leftIntro {
+    width: 68%;
+}
+
+.leftIntro img, .rightIntro .watchImage img, .rightIntro .bettleImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: opacity(.6);
+    position: relative;
+}
+
+
+.rightIntro .watchImage, .rightIntro .bettleImage {
+    width: 100%;
+    height: 50%;
+}
+
+.imageText {
+    z-index: 1;
+    position: absolute;
+    width: 40%;
+    left: 13rem;
+    bottom: 4rem;
+}
+
+.imageText h3, .imageText h1 {
+    color: white;
+}
+
+.imageText .postInfo img{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.imageText h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.imageText a, .imageText-watch a, .imageText-bettle a {
+    padding: 0.5rem 2rem;
+    background-color: #01AEF0;
+    color: white;
+    position: relative;
+    bottom: 2rem;
+}
+
+.postInfo {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.postInfo img {
+    margin-right: 2rem;
+}
+
+.imageText-watch, .imageText-bettle {
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    right: 19rem;
+    bottom: 26rem;
+}
+
+.imageText-watch h1, .imageText-watch h3, .imageText-watch a,
+.imageText-bettle h1, .imageText-bettle h3, .imageText-bettle a 
+{
+    color: white;
+}
+
+.imageText-watch a, .imageText-bettle a {
+    background-color: #659A24;
+}
+
+.imageText-watch h1, .imageText-bettle h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.imageText-bettle {
+    right: 19rem;
+    bottom: 2rem;
+}

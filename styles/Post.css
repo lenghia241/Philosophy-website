@@ -1,0 +1,101 @@
+/* Middle Section between content and footer */
+
+.post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 8rem;
+}
+
+.postUpper {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between
+}
+
+/* Popular Posts section */
+
+.popularPost {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popularPost h1, .about h1, .tag h1 {
+    margin-bottom: 3rem;
+}
+
+.popularPost-container {
+    display: inline-flex;
+    justify-content: space-between
+}
+
+.popularPost-row {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePost {
+    width: 100%;
+    display:inline-flex;
+    margin: 2rem 0;
+}
+
+.singlePost-text h3 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;;
+}
+
+.singlePost img {
+    width: 20%;
+    height: 20%;
+    margin-right: 2rem;
+}
+
+/* About section */
+.about {
+    width: 30%;
+}
+
+.about-social-icons {
+    margin-top: 3rem;
+}
+
+.about-social-icons a {
+    color: black;
+    text-decoration: none;
+    font-size: 3rem;
+    padding-right: 2rem
+}
+
+/* TAGS section */
+
+.tag {
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagWrapper {
+    width: 60%;
+    text-align: center;
+}
+
+.tagWrapper button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: #E2E2E2;
+    margin: 0.5rem; 
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5%;
+}
